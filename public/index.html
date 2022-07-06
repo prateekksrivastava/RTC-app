@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index.css">
+        <title>Real Time Chat Application</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Press+Start+2P&family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="container">
+        <p class="msg">Messages:</p>
+        <div id="messages" class="messages"></div>
+
+        <form id="msgForm" class="msgForm">
+            <input type="text" placeholder="Send message" class="input" id="inputBox"/>
+            <input type="submit" class="btn" value="Send">
+        </form>
+    </div>
+
+    <script src="./client.js"></script>
+</body>
+</html>
